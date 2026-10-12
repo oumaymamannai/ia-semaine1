@@ -1,0 +1,14 @@
+# Assistant de recherche documentaire (en cours)
+
+Chatbot RAG qui répond à des questions à partir de plusieurs PDF
+et cite le document et la page utilisés.
+
+## Contenu
+- jour1.py à jour7.py : étapes d'apprentissage (API, ML, LLM, prompt, embeddings)
+
+## Installation
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install requests scikit-learn ollama
+
+Nécessite Ollama avec les modèles llama3.2 et bge-m3.
